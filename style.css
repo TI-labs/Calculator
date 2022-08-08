@@ -4,11 +4,13 @@ body{
     align-items: center;
     margin: 10vh;
     font-family: 'Roboto', sans-serif;
+    color: aquamarine;
+    font-size: x-large;
 }
 
 #BigContainer{
     display: flex;
-    background-color: darkolivegreen;
+    background-color: rgb(58, 58, 58);
     width: 400px;
     height: 500px;
     border-radius: 10px;
