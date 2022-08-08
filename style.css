@@ -15,7 +15,7 @@ body{
     height: 500px;
     border-radius: 10px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: space-evenly;
 
 
@@ -23,9 +23,15 @@ body{
 
 #displayContainer{
 background-color: rgb(233, 233, 233);
+    box-sizing: border-box;
     width:90%;
     height: 20%;
     border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-align: right;
+
+font-size: 1.2em;
 }
 
 #digits{
@@ -77,3 +83,4 @@ background-color: rgb(233, 233, 233);
     align-items: center;
     justify-content: center;
 }
+
