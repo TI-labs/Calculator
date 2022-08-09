@@ -10,7 +10,7 @@ body{
 
 #BigContainer{
     display: flex;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(51, 51, 51);
     width: 400px;
     height: 500px;
     border-radius: 10px;
@@ -55,6 +55,7 @@ font-size: 1.2em;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #clear, #equal{
