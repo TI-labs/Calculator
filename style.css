@@ -10,7 +10,7 @@ body{
 
 #BigContainer{
     display: flex;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(15, 12, 12);
     width: 400px;
     height: 500px;
     border-radius: 10px;
@@ -57,6 +57,20 @@ font-size: 1.2em;
     justify-content: center;
 
 }
+
+.digit:active, #equal:active, #clear:active{
+    width: 25%;
+    height: 15%;
+    background-color: rgb(5, 54, 88);
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 
 #clear, #equal{
     background-color: chocolate;
